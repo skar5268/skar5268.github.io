@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on 阿若（Michelle）</title>
+    <link>https://skar5268.github.io/blog/</link>
+    <description>Recent content in blog on 阿若（Michelle）</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://skar5268.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS Reset</title>
+      <link>https://skar5268.github.io/blog/css-reset/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/css-reset/</guid>
+      <description>// http://meyerweb.com/eric/tools/css/reset/ // v2.0 | 20110126 // License: none (public domain) html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video margin: 0 padding: 0 border: 0 font-size: 100% font: inherit vertical-align: baseline /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section display: block body line-height: 1 ol, ul list-style: none blockquote, q quotes: none blockquote:before, blockquote:after, q:before, q:after content: &amp;#39;&amp;#39; content: none table border-collapse: collapse border-spacing: 0 *, *::before, *::after box-sizing: border-box a display: block text-decoration: none img display: block object-fit: cover height: auto max-width: 100% </description>
+    </item>
+    <item>
+      <title>圖片輪播</title>
+      <link>https://skar5268.github.io/blog/%E5%9C%96%E7%89%87%E8%BC%AA%E6%92%AD/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/%E5%9C%96%E7%89%87%E8%BC%AA%E6%92%AD/</guid>
+      <description>Pug .carousel h2.container-title 精選文章 .carousel-cards .carousel-card a(href=&amp;#34;#&amp;#34;) img(src=&amp;#34;../img/article-image1.png&amp;#34; alt=&amp;#34;Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)&amp;#34;) h3 Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上) .</description>
+    </item>
+    <item>
+      <title>JS Clock</title>
+      <link>https://skar5268.github.io/blog/js-clock/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/js-clock/</guid>
+      <description>成品&#xA;其實我現在還是不太懂時間角度的算法，數學都還給老師ㄌ。 因此試著紀錄看看，說不定會比較能理解？&#xA;一、首先需要一個時鐘，並設定秒針、時針、分針樣式 這邊直接拿教材使用，所以沒什麼好講解ㄉ&#xA;二、取得時間 const now = new Date(); /*取得現在時間*/ const seconds = now.</description>
+    </item>
+    <item>
+      <title>Hexo 架站步驟</title>
+      <link>https://skar5268.github.io/blog/hexo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/hexo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</guid>
+      <description>Hexo 起源 / Hexo 官網 一、環境建置 安裝 Node.js&#xA;安裝 Git</description>
+    </item>
+    <item>
+      <title>Hugo 架站步驟</title>
+      <link>https://skar5268.github.io/blog/hugo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/hugo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>履歷表</title>
+      <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-03/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-03/</guid>
+      <description>網站連結 </description>
+    </item>
+    <item>
+      <title>高雄旅遊網站</title>
+      <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-02/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-02/</guid>
+      <description>網站連結 </description>
+    </item>
+    <item>
+      <title>d&#39;Perfume</title>
+      <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-01/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-01/</guid>
+      <description>網站連結 </description>
+    </item>
+  </channel>
+</rss>

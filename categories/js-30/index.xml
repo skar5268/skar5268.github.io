@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JS 30 on 阿若日誌</title>
+    <link>http://localhost:1313/categories/js-30/</link>
+    <description>Recent content in JS 30 on 阿若日誌</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/js-30/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS Clock</title>
+      <link>http://localhost:1313/blog/js-clock/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/js-clock/</guid>
+      <description>成品&#xA;其實我現在還是不太懂時間角度的算法，數學都還給老師ㄌ。 因此試著紀錄看看，說不定會比較能理解？&#xA;一、首先需要一個時鐘，並設定秒針、時針、分針樣式 這邊直接拿教材使用，所以沒什麼好講解ㄉ&#xA;二、取得時間 const now = new Date(); /*取得現在時間*/ const seconds = now.</description>
+    </item>
+  </channel>
+</rss>

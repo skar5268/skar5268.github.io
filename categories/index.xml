@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 阿若（Michelle）</title>
+    <link>https://skar5268.github.io/categories/</link>
+    <description>Recent content in Categories on 阿若（Michelle）</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://skar5268.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用語法</title>
+      <link>https://skar5268.github.io/categories/%E5%B8%B8%E7%94%A8%E8%AA%9E%E6%B3%95/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/categories/%E5%B8%B8%E7%94%A8%E8%AA%9E%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://skar5268.github.io/categories/javascript/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>部落格架站教學</title>
+      <link>https://skar5268.github.io/categories/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/categories/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Works</title>
+      <link>https://skar5268.github.io/categories/works/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/categories/works/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
