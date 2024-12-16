@@ -6,21 +6,21 @@
     <description>Recent content in 部落格架站教學 on 阿若（Michelle）</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://skar5268.github.io/categories/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 架站步驟</title>
+      <link>https://skar5268.github.io/blog/hugo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://skar5268.github.io/blog/hugo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</guid>
+      <description>Hugo 官網 / Hugo 主題&#xA;本部落格使用的主題：Liva Hugo&#xA;一、環境建置 安裝 Hugo</description>
+    </item>
     <item>
       <title>Hexo 架站步驟</title>
       <link>https://skar5268.github.io/blog/hexo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://skar5268.github.io/blog/hexo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</guid>
       <description>Hexo 起源 / Hexo 官網 一、環境建置 安裝 Node.js&#xA;安裝 Git</description>
-    </item>
-    <item>
-      <title>Hugo 架站步驟</title>
-      <link>https://skar5268.github.io/blog/hugo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</link>
-      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://skar5268.github.io/blog/hugo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

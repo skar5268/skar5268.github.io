@@ -158,14 +158,402 @@
           <span>By 阿若</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>28 April 2024</span>
+          <span>16 December 2024</span>
           
         </div>
         
-        <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid w-100 mb-4" alt="Hugo 架站步驟">
+        <img src="https://skar5268.github.io/images/post/hugo.png" class="img-fluid w-100 mb-4" alt="Hugo 架站步驟">
         
         <div class="content mb-5">
-          
+          <blockquote>
+<p><a href="https://gohugo.io/">Hugo 官網</a> / <a href="https://themes.gohugo.io/">Hugo 主題</a></p>
+</blockquote>
+<p>本部落格使用的主題：<a href="https://github.com/gethugothemes/liva-hugo">Liva Hugo</a></p>
+<h4 id="一環境建置">一、環境建置</h4>
+<ol>
+<li>
+<p>安裝 <strong><a href="https://gohugo.io/installation/windows/">Hugo</a></strong></p>
+<p>在官方文件 &gt; Prebuilt binaries 找到最新版本連結，下載後解壓縮留下 <code>hugo.exe</code></p>
+</li>
+<li>
+<p>下載主題</p>
+<ul>
+<li>下載檔案</li>
+<li>解壓縮取出 exampleSite 資料夾</li>
+<li>在 exampleSite 資料夾新增一個資料夾 themes</li>
+<li>把剛剛主題解壓縮的資料夾 liva-hugo-master 移到 themes</li>
+<li>將 hugo.exe 移到 exampleSite</li>
+</ul>
+</li>
+<li>
+<p>運行 Hugo</p>
+<p>開啟 <code>cmd</code> &gt; 輸入 <code>hugo server</code> &gt; 點擊網址運行</p>
+</li>
+<li>
+<p>關閉 Hugo</p>
+<ul>
+<li>ctrl+C 停止 hugo 程式</li>
+<li>直接關掉命令提示字元</li>
+</ul>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<h4 id="二部落格基本設定">二、部落格基本設定</h4>
+<ol>
+<li>
+<p>部落格基本資料於 <code>config.toml</code> 修改，以本部落格為例</p>
+<ul>
+<li>default configuration</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ea9a97">baseURL</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;https://skar5268.github.io&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">languageCode</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;zh-TW&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">title</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;阿若（Michelle）&#34;</span>
+</span></span></code></pre></div><ul>
+<li>
+<p>navigation</p>
+</li>
+<li>
+<p>default parameters</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ea9a97">logo</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;images/logo.png&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">home</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;Home&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#eb6f92">#</span> <span style="color:#ea9a97">Meta</span> <span style="color:#ea9a97">data</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">description</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;程式筆記 / 旅遊紀錄&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">author</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;阿若&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#eb6f92">#</span> <span style="color:#ea9a97">Google</span> <span style="color:#ea9a97">Analitycs</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">googleAnalitycsID</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;Your ID&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#eb6f92">#</span> <span style="color:#ea9a97">Contact</span> <span style="color:#ea9a97">Information</span>
+</span></span><span style="display:flex;"><span><span style="color:#eb6f92">#</span> <span style="color:#ea9a97">mobile</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;0124857985320&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">email</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;skar5268@gmail.com&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">location</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;Taiwan&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#eb6f92">#</span> <span style="color:#ea9a97">copyright</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">copyright</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">&#34;copyright &amp;copy; 2024 阿若 All Rights Reserved&#34;</span>
+</span></span></code></pre></div><ul>
+<li>news letter</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ea9a97">enable</span> <span style="color:#908caa">=</span> <span style="color:#3e8fb0">false</span>
+</span></span></code></pre></div><ul>
+<li>social site</li>
+</ul>
+</li>
+<li>
+<p>圖片存放位置</p>
+<p><code>static\images</code></p>
+</li>
+<li>
+<p>修改關於我</p>
+<p><code>content\about\_index.md</code></p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<h4 id="三寫文章">三、寫文章</h4>
+<p>部落格文章存放於 <code>contene\blog</code>，需使用 <a href="https://markdown.tw/"><strong>Markdown 語法</strong></a> 撰寫</p>
+<p>相關工具：<a href="https://typora.io/">typora</a></p>
+<ol>
+<li>
+<p>文章設定</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#908caa">---</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">title</span><span style="color:#908caa">:</span> <span style="color:#f6c177">&#34;標題&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">date</span><span style="color:#908caa">:</span> <span style="color:#ea9a97">日期</span><span style="color:#eb6f92">（</span><span style="color:#f6c177">2024</span><span style="color:#908caa">-</span><span style="color:#f6c177">04</span><span style="color:#908caa">-</span><span style="color:#f6c177">28</span><span style="color:#eb6f92">）</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">draft</span><span style="color:#908caa">:</span> <span style="color:#ea9a97">是否為草搞</span><span style="color:#eb6f92">（</span><span style="color:#3e8fb0">true</span><span style="color:#908caa">/</span><span style="color:#3e8fb0">false</span><span style="color:#eb6f92">）</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">image</span><span style="color:#908caa">:</span> <span style="color:#f6c177">&#34;圖片網址&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#eb6f92">#</span> <span style="color:#ea9a97">meta</span> <span style="color:#ea9a97">description</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">description</span><span style="color:#908caa">:</span> <span style="color:#f6c177">&#34;文章簡短介紹&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">categories</span><span style="color:#908caa">:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#908caa">-</span> <span style="color:#f6c177">&#34;分類&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">tags</span><span style="color:#908caa">:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#908caa">-</span><span style="color:#f6c177">&#34;標籤&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#eb6f92">#</span> <span style="color:#ea9a97">type</span>
+</span></span><span style="display:flex;"><span><span style="color:#ea9a97">type</span> <span style="color:#908caa">:</span> <span style="color:#f6c177">&#34;post&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">---</span>
+</span></span></code></pre></div></li>
+<li>
+<p>ShortCodes</p>
+<p><a href="https://gohugo.io/content-management/shortcodes/">官方文件</a></p>
+<ul>
+<li>Youtube</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#6e6a86">/*不要斷行*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">{{</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">&lt;</span> <span style="color:#ea9a97">youtube</span> <span style="color:#f6c177">0</span><span style="color:#ea9a97">RKpf3rK57I</span> <span style="color:#908caa">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">}}</span>
+</span></span></code></pre></div>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe src="https://www.youtube.com/embed/0RKpf3rK57I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+    </div>
+
+<ul>
+<li>Twitter</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#6e6a86">/*不要斷行*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">{{</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">&lt;</span> <span style="color:#ea9a97">twitter</span> <span style="color:#ea9a97">user</span><span style="color:#908caa">=</span><span style="color:#f6c177">&#34;github&#34;</span> <span style="color:#ea9a97">id</span><span style="color:#908caa">=</span><span style="color:#f6c177">&#34;1868349116540915923&#34;</span> <span style="color:#908caa">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">}}</span>
+</span></span></code></pre></div><blockquote class="twitter-tweet"><p lang="en" dir="ltr">“I wish GitHub Copilot Chat could edit files directly!”<br><br>It CAN ✨<a href="https://t.co/OaAincSVf3">https://t.co/OaAincSVf3</a> <a href="https://t.co/kSRGAscBMN">pic.twitter.com/kSRGAscBMN</a></p>&mdash; GitHub (@github) <a href="https://twitter.com/github/status/1868349116540915923?ref_src=twsrc%5Etfw">December 15, 2024</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+
+<ul>
+<li>Instagram</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#6e6a86">/*不要斷行*/</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">{{</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">&lt;</span> <span style="color:#ea9a97">instagram</span> <span style="color:#ea9a97">DDiDJNmvDVM</span> <span style="color:#908caa">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">}}</span>
+</span></span></code></pre></div><blockquote
+        class="instagram-media"
+        data-instgrm-captioned
+        data-instgrm-permalink="https://www.instagram.com/p/DDiDJNmvDVM"
+        data-instgrm-version="14"
+        style="
+          background: #fff;
+          border: 0;
+          border-radius: 3px;
+          box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+          margin: 1px;
+          max-width: 540px;
+          min-width: 326px;
+          padding: 0;
+          width: 99.375%;
+          width: -webkit-calc(100% - 2px);
+          width: calc(100% - 2px);
+        "
+      >
+        <div style="padding: 16px">
+          <a
+            href="https://www.instagram.com/p/DDiDJNmvDVM"
+            style="
+              background: #ffffff;
+              line-height: 0;
+              padding: 0 0;
+              text-align: center;
+              text-decoration: none;
+              width: 100%;
+            "
+            target="_blank"
+          >
+            <div style="display: flex; flex-direction: row; align-items: center">
+              <div
+                style="
+                  background-color: #f4f4f4;
+                  border-radius: 50%;
+                  flex-grow: 0;
+                  height: 40px;
+                  margin-right: 14px;
+                  width: 40px;
+                "
+              ></div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  flex-grow: 1;
+                  justify-content: center;
+                "
+              >
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                    flex-grow: 0;
+                    height: 14px;
+                    margin-bottom: 6px;
+                    width: 100px;
+                  "
+                ></div>
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 4px;
+                    flex-grow: 0;
+                    height: 14px;
+                    width: 60px;
+                  "
+                ></div>
+              </div>
+            </div>
+            <div style="padding: 19% 0"></div>
+            <div
+              style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
+            >
+              <svg
+                width="50px"
+                height="50px"
+                viewBox="0 0 60 60"
+                version="1.1"
+                xmlns="https://www.w3.org/2000/svg"
+                xmlns:xlink="https://www.w3.org/1999/xlink"
+              >
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                    <g>
+                      <path
+                        d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div style="padding-top: 8px">
+              <div
+                style="
+                  color: #3897f0;
+                  font-family: Arial, sans-serif;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 550;
+                  line-height: 18px;
+                "
+              >
+                View this post on Instagram
+              </div>
+            </div>
+            <div style="padding: 12.5% 0"></div>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 14px;
+                align-items: center;
+              "
+            >
+              <div>
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 50%;
+                    height: 12.5px;
+                    width: 12.5px;
+                    transform: translateX(0px) translateY(7px);
+                  "
+                ></div>
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    height: 12.5px;
+                    transform: rotate(-45deg) translateX(3px) translateY(1px);
+                    width: 12.5px;
+                    flex-grow: 0;
+                    margin-right: 14px;
+                    margin-left: 2px;
+                  "
+                ></div>
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 50%;
+                    height: 12.5px;
+                    width: 12.5px;
+                    transform: translateX(9px) translateY(-18px);
+                  "
+                ></div>
+              </div>
+              <div style="margin-left: 8px">
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    border-radius: 50%;
+                    flex-grow: 0;
+                    height: 20px;
+                    width: 20px;
+                  "
+                ></div>
+                <div
+                  style="
+                    width: 0;
+                    height: 0;
+                    border-top: 2px solid transparent;
+                    border-left: 6px solid #f4f4f4;
+                    border-bottom: 2px solid transparent;
+                    transform: translateX(16px) translateY(-4px) rotate(30deg);
+                  "
+                ></div>
+              </div>
+              <div style="margin-left: auto">
+                <div
+                  style="
+                    width: 0px;
+                    border-top: 8px solid #f4f4f4;
+                    border-right: 8px solid transparent;
+                    transform: translateY(16px);
+                  "
+                ></div>
+                <div
+                  style="
+                    background-color: #f4f4f4;
+                    flex-grow: 0;
+                    height: 12px;
+                    width: 16px;
+                    transform: translateY(-4px);
+                  "
+                ></div>
+                <div
+                  style="
+                    width: 0;
+                    height: 0;
+                    border-top: 8px solid #f4f4f4;
+                    border-left: 8px solid transparent;
+                    transform: translateY(-4px) translateX(8px);
+                  "
+                ></div>
+              </div>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                justify-content: center;
+                margin-bottom: 24px;
+              "
+            >
+              <div
+                style="
+                  background-color: #f4f4f4;
+                  border-radius: 4px;
+                  flex-grow: 0;
+                  height: 14px;
+                  margin-bottom: 6px;
+                  width: 224px;
+                "
+              ></div>
+              <div
+                style="
+                  background-color: #f4f4f4;
+                  border-radius: 4px;
+                  flex-grow: 0;
+                  height: 14px;
+                  width: 144px;
+                "
+              ></div></div
+          ></a>
+        </div>
+      </blockquote><script async src="//www.instagram.com/embed.js"></script>
+</li>
+</ol>
+<h4 id="四發佈於-github-pages-上">四、發佈於 Github Pages 上</h4>
+<ol>
+<li>
+<p>創建新的 repository</p>
+<p>Respository name：<code>Github 帳號.github.io</code></p>
+</li>
+<li>
+<p>使用 Hugo 產生出個人網站的程式碼</p>
+<ul>
+<li>開啟終端機，輸入 <code>hugo</code></li>
+<li>Hugo 產生的程式碼會放在 <code>exampleSite/public</code></li>
+<li>將 <code>public</code> 資料夾複製到 Github 資料夾下</li>
+<li>創建 commit，Publish branch</li>
+</ul>
+</li>
+</ol>
+
         </div>
 
         
