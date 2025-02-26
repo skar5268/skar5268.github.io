@@ -20,7 +20,7 @@
       <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-04/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-04/</guid>
-      <description>DEMO 透過實驗網站的建立，收集研究所需數據，並讓受測者可以線上進行實驗&#xA;語法：HTML、CSS、JavaScript&#xA;網站頁面介紹 實驗網站首頁&#xA;點選「填寫研究參與者知情同意書」按鈕後即可前往下一個頁面 研究參與者知情同意書&#xA;嵌入 SurveyCake 問卷 學習成效前測</description>
+      <description>DEMO 透過實驗網站的建立來收集研究數據，並讓受測者可在線上進行實驗。&#xA;網站整合了四份教材，透過 JavaScript 生成隨機亂數，確保每位受測者的學習順序皆不相同，避免閱讀順序影響實驗結果。&#xA;隨機數將儲存在 localStorage 中。&#xA;語法：HTML、CSS、JavaScript&#xA;網站頁面介紹 實驗網站首頁</description>
     </item>
   </channel>
 </rss>
