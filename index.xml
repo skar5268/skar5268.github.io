@@ -6,8 +6,15 @@
     <description>Recent content on 阿若（Michelle）</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 16 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Mar 2025 04:55:00 +0800</lastBuildDate>
     <atom:link href="https://skar5268.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Hugo 中實作文章目錄功能</title>
+      <link>https://skar5268.github.io/blog/%E5%9C%A8-hugo-%E9%83%A8%E8%90%BD%E6%A0%BC%E4%B8%AD%E5%AF%A6%E4%BD%9C%E6%96%87%E7%AB%A0%E7%9B%AE%E9%8C%84%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Mon, 17 Mar 2025 04:55:00 +0800</pubDate>
+      <guid>https://skar5268.github.io/blog/%E5%9C%A8-hugo-%E9%83%A8%E8%90%BD%E6%A0%BC%E4%B8%AD%E5%AF%A6%E4%BD%9C%E6%96%87%E7%AB%A0%E7%9B%AE%E9%8C%84%E5%8A%9F%E8%83%BD/</guid>
+      <description>官方文件教學&#xA;目錄可以讓讀者快速瀏覽文章架構，並找到所需資訊，還能優化 SEO、提升使用者體驗&#xA;本文將介紹如何使用 Hugo 內建的變數來生成目錄，並自定義所需內容，提升文章的結構性與可讀性，優化閱讀體驗&#xA;一、啟用 Hugo 內建目錄功能 Hugo 提供內建的變數來自動生成目錄</description>
+    </item>
     <item>
       <title>Hugo 架站步驟</title>
       <link>https://skar5268.github.io/blog/hugo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/</link>
@@ -65,11 +72,11 @@
       <description>DEMO </description>
     </item>
     <item>
-      <title>碩論實驗網站</title>
+      <title>一站式學術實驗平台</title>
       <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-04/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-04/</guid>
-      <description>DEMO 透過實驗網站的建立來收集研究數據，並讓受測者可在線上進行實驗。&#xA;網站整合了四份教材，透過 JavaScript 生成隨機亂數，確保每位受測者的學習順序皆不相同，避免閱讀順序影響實驗結果。&#xA;隨機數將儲存在 localStorage 中。&#xA;語法：HTML、CSS、JavaScript&#xA;網站頁面介紹 實驗網站首頁</description>
+      <description>此網站整合了同意書、教材、測驗和問卷，藉此收集研究所需數據。為研究者提供穩定的實驗環境，同時提升受試者的使用體驗。是一項用於碩論實驗的研究工具&#xA;一、基本介紹 網頁連結： https://skar5268.github.io/PaperExperiment/&#xA;核心功能： 完整實驗流程、隨機化實驗教材、收集實驗數據&#xA;目標受眾： 臺灣的大學生與碩士生，年齡分佈於 18 歲至 28 歲之間</description>
     </item>
     <item>
       <title>高雄旅遊網站</title>

@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="情感設計與擴增實境教材呈現對學習之影響　碩論實驗">
+  <meta name="description" content="我們透過實驗網站整合了同意書、教材、測驗和問卷，藉此收集研究所需數據，為研究者提供穩定的實驗環境，同時提升受試者的使用體驗。是一項用於碩論實驗的研究工具">
   <meta name="author" content="阿若">
     
   
@@ -153,7 +153,7 @@
         
         <a href="/categories/websiteworks" class="text-primary">Website works</a>
         
-        <h2>碩論實驗網站</h2>
+        <h2>一站式學術實驗平台</h2>
         <div class="mb-3 post-meta">
           <span>By 阿若</span>
           
@@ -162,88 +162,263 @@
           
         </div>
         
-        <img src="https://skar5268.github.io/images/featured-post/%E6%83%85%E6%84%9F%E8%A8%AD%E8%A8%88%E8%88%87%E6%93%B4%E5%A2%9E%E5%AF%A6%E5%A2%83%E6%95%99%E6%9D%90%E5%91%88%E7%8F%BE%E5%B0%8D%E5%AD%B8%E7%BF%92%E4%B9%8B%E5%BD%B1%E9%9F%BF.png" class="img-fluid w-100 mb-4" alt="碩論實驗網站">
+        <img src="https://skar5268.github.io/images/featured-post/%E6%83%85%E6%84%9F%E8%A8%AD%E8%A8%88%E8%88%87%E6%93%B4%E5%A2%9E%E5%AF%A6%E5%A2%83%E6%95%99%E6%9D%90%E5%91%88%E7%8F%BE%E5%B0%8D%E5%AD%B8%E7%BF%92%E4%B9%8B%E5%BD%B1%E9%9F%BF.png" class="img-fluid w-100 mb-4" alt="一站式學術實驗平台">
         
         <div class="content mb-5">
-          <h3 id="demohttpsskar5268githubiopaperexperiment"><a href="https://skar5268.github.io/PaperExperiment/">DEMO</a></h3>
-<p>透過實驗網站的建立來收集研究數據，並讓受測者可在線上進行實驗。</p>
-<p>網站整合了四份教材，透過 JavaScript 生成隨機亂數，確保每位受測者的學習順序皆不相同，避免閱讀順序影響實驗結果。</p>
-<p>隨機數將儲存在 localStorage 中。</p>
-<blockquote>
-<p><strong>語法</strong>：HTML、CSS、JavaScript</p>
+          
+          <aside class="toc">
+            <h2 class="text-center">目錄</h2>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一基本介紹">一、基本介紹</a></li>
+    <li><a href="#二使用者體驗">二、使用者體驗</a>
+      <ul>
+        <li><a href="#1-使用者角色與目標">1. 使用者角色與目標</a></li>
+        <li><a href="#2-使用者旅程">2. 使用者旅程</a></li>
+        <li><a href="#3-結論">3. 結論</a></li>
+      </ul>
+    </li>
+    <li><a href="#三各頁面詳細介紹">三、各頁面詳細介紹</a>
+      <ul>
+        <li><a href="#1-首頁簡潔直觀的實驗入口">1. 首頁──簡潔直觀的實驗入口</a></li>
+        <li><a href="#2-研究參與者知情同意書權益保障與實驗倫理">2. 研究參與者知情同意書──權益保障與實驗倫理</a></li>
+        <li><a href="#3-學習成效前測知識評估與進度指引">3. 學習成效前測──知識評估與進度指引</a></li>
+        <li><a href="#4-教材使用說明實驗指引與順序隨機化">4. 教材使用說明──實驗指引與順序隨機化</a></li>
+        <li><a href="#5-教材範例核心學習內容展示">5. 教材範例──核心學習內容展示</a></li>
+        <li><a href="#6-學習成效後測成效評估與數據收集">6. 學習成效後測──成效評估與數據收集</a></li>
+        <li><a href="#7-完成此階段學習階段性引導與數據更新">7. 完成此階段學習──階段性引導與數據更新</a></li>
+        <li><a href="#8-學習情緒量表填答說明情緒量表前置指引">8. 學習情緒量表填答說明──情緒量表前置指引</a></li>
+        <li><a href="#9-學習情緒量表多教材情緒體驗比較">9. 學習情緒量表──多教材情緒體驗比較</a></li>
+        <li><a href="#10-回饋問卷質性資料收集">10. 回饋問卷──質性資料收集</a></li>
+        <li><a href="#11-實驗完成明確結束與環境作業清理">11. 實驗完成──明確結束與環境作業清理</a></li>
+      </ul>
+    </li>
+    <li><a href="#四技術實現">四、技術實現</a>
+      <ul>
+        <li><a href="#1-使用技術">1. 使用技術</a></li>
+        <li><a href="#2-技術亮點">2. 技術亮點</a></li>
+      </ul>
+    </li>
+    <li><a href="#五結語">五、結語</a></li>
+  </ul>
+</nav>
+          </aside>
+          
+          <blockquote>
+<p>此網站整合了同意書、教材、測驗和問卷，藉此收集研究所需數據。為研究者提供穩定的實驗環境，同時提升受試者的使用體驗。是一項用於碩論實驗的研究工具</p>
 </blockquote>
+<h3 id="一基本介紹">一、基本介紹</h3>
+<p><strong>網頁連結：</strong> <a href="https://skar5268.github.io/PaperExperiment/">https://skar5268.github.io/PaperExperiment/</a></p>
+<p><strong>核心功能：</strong> 完整實驗流程、隨機化實驗教材、收集實驗數據</p>
+<p><strong>目標受眾：</strong> 臺灣的大學生與碩士生，年齡分佈於 18 歲至 28 歲之間</p>
+<p><strong>設計理念：</strong> 讓受試者能在單一網站上完成所有實驗流程，避免分頁切換帶來的認知負荷，維持實驗環境的一致性，並優化使用者體驗</p>
+<p><strong>網頁語法：</strong> HTML、CSS（SCSS）、JavaScript</p>
 <hr>
-<h4 id="網站頁面介紹">網站頁面介紹</h4>
-<ol>
-<li>
-<p>實驗網站首頁</p>
-<p><img src="https://i.imgur.com/YzwExdg.png" alt="實驗網站首頁"></p>
+<p>我們透過實驗網站來收集研究數據，為研究者提供穩定的實驗環境，同時提升受試者的使用體驗。</p>
+<p>對於研究者而言，網站整合了四份教材，採用 JavaScript 生成隨機亂數，以確保每位受試者的學習順序皆不相同，避免閱讀順序對實驗結果產生影響。這些隨機數將儲存在 localStorage 中，來維持受試者在同一次實驗中的順序一致性，防止因重新整理或中斷操作而改變順序，藉此提升數據的穩定性。</p>
+<p>在受試者方面，網站採用了簡約風格設計，並將指引按鈕置於顯眼的位置，使流程操作清楚易懂。此外，實驗流程統整於單一網站上的設計，有助於減少操作時的分心，讓受試者能專注於完成實驗。藉由 CSS 搭配 JavaScript 設計的進度條，受試者更能明確掌握實驗進度，增加安心感與可預期性，進而提升參與過程中的專注度。</p>
+<hr>
+<h3 id="二使用者體驗">二、使用者體驗</h3>
+<h4 id="1-使用者角色與目標">1. 使用者角色與目標</h4>
+<p><strong>使用者：</strong> 實驗受試者</p>
+<p><strong>目標：</strong></p>
 <ul>
-<li>點選「填寫研究參與者知情同意書」按鈕後即可前往下一個頁面</li>
+<li>快速理解實驗流程</li>
+<li>流暢完成所有步驟，減少中斷或錯誤</li>
+<li>提供回饋，順利結束實驗</li>
 </ul>
-</li>
-<li>
-<p>研究參與者知情同意書</p>
-<p><img src="https://i.imgur.com/CIW3lyE.png" alt="研究參與者知情同意書"></p>
-<ul>
-<li>嵌入 SurveyCake 問卷</li>
-</ul>
-</li>
-<li>
-<p>學習成效前測</p>
-<p><img src="https://i.imgur.com/m81ll2W.png" alt="學習成效前測"></p>
-<ul>
-<li>前測完成後，進入實驗教材使用說明</li>
-</ul>
-</li>
-<li>
-<p>教材使用說明</p>
-<p><img src="https://i.imgur.com/qMSFWn3.png" alt="教材使用說明"></p>
-<ul>
-<li>點選「開始實驗」按鈕後，會隨機進入教材版本（共有 4 個版本）</li>
-</ul>
-</li>
-<li>
-<p>教材範例</p>
-<p><img src="https://i.imgur.com/s1Ir2IZ.png" alt="教材範例"></p>
-<p><img src="https://i.imgur.com/2SmJGg2.png" alt="教材範例"></p>
-<ul>
-<li>學習完教材後，進入學習成效後測</li>
-</ul>
-</li>
-<li>
-<p>學習成效後測</p>
-<p><img src="https://i.imgur.com/hjJQcdr.png" alt="學習成效後測"></p>
-</li>
-<li>
-<p>完成此階段學習</p>
-<p><img src="https://i.imgur.com/LSrgQV6.png" alt="完成此階段學習"></p>
+<h4 id="2-使用者旅程">2. 使用者旅程</h4>
+<p><strong>A. 進入網站，閱讀指引：</strong></p>
 <ul>
 <li>
-<p>點擊「前往下一步」按鈕即可學習其他版本的教材</p>
+<p>受試者能清楚看到「填寫研究參與者知情同意書」按鈕，輕鬆開始實驗</p>
 </li>
 <li>
-<p>完成 4 個階段的學習後，進入實驗的下一個階段</p>
+<p><strong>設計重點：首頁簡潔、按鈕清楚，避免受試者迷惘</strong></p>
 </li>
 </ul>
+<p><strong>B. 依指引完成每個步驟</strong></p>
+<ul>
+<li>
+<p>受試者依序完成知情同意書、測驗、教材學習及問卷等</p>
 </li>
 <li>
-<p>學習情緒量表填答說明</p>
-<p><img src="https://i.imgur.com/M0YbQHL.png" alt="學習情緒量表填答說明"></p>
+<p><strong>設計重點：透過「進度條」、「步驟顯示」及「下一步的按鈕」提升掌控感，減少焦慮</strong></p>
+</li>
+</ul>
+<p><strong>C. 確認完成並離開網站</strong></p>
+<ul>
+<li>
+<p>完成實驗後，系統顯示「感謝您參與實驗」的訊息和「結束」按鈕</p>
 </li>
 <li>
-<p>學習情緒量表</p>
-<p><img src="https://i.imgur.com/jVQQM6B.png" alt="學習情緒量表"></p>
+<p><strong>設計重點：清楚的標示完成，避免受試者以為實驗尚未結束</strong></p>
+</li>
+</ul>
+<h4 id="3-結論">3. 結論</h4>
+<ul>
+<li>
+<p><strong>簡化介面</strong>，讓受試者對接下來的操作一目瞭然，避免過多資訊造成混亂</p>
 </li>
 <li>
-<p>回饋問卷</p>
-<p><img src="https://i.imgur.com/ESxi05j.png" alt="回饋問卷"></p>
+<p>透過<strong>步驟引導</strong>及標示功能，確保每位受試者都能理解並順利完成實驗</p>
+</li>
+</ul>
+<hr>
+<h3 id="三各頁面詳細介紹">三、各頁面詳細介紹</h3>
+<h4 id="1-首頁簡潔直觀的實驗入口">1. 首頁──簡潔直觀的實驗入口</h4>
+<a href="https://i.imgur.com/YzwExdg.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/YzwExdg.png" alt="首頁">
+  
+</a>
+
+<p>介面簡潔，只放「實驗標題」和「按鈕」，讓受試者清楚知道要點選按鈕來進行下一步</p>
+<p>點選「填寫研究參與者知情同意書」按鈕後即可前往下一個頁面</p>
+<h4 id="2-研究參與者知情同意書權益保障與實驗倫理">2. 研究參與者知情同意書──權益保障與實驗倫理</h4>
+<a href="https://i.imgur.com/CIW3lyE.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/CIW3lyE.png" alt="研究參與者知情同意書">
+  
+</a>
+
+<p>為了保障受試者權益，我們設計了知情同意書，確保每位參與者都能了解自己的權利與義務</p>
+<p>我們嵌入了 SurveyCake 問卷，並在問卷結束後的按鈕加上網頁連結，讓受試者可前往下一個步驟</p>
+<h4 id="3-學習成效前測知識評估與進度指引">3. 學習成效前測──知識評估與進度指引</h4>
+<a href="https://i.imgur.com/m81ll2W.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/m81ll2W.png" alt="學習成效前測">
+  
+</a>
+
+<p>實驗正式開始後，於頁面頂端加入<strong>進度條</strong>，讓受試者可以知道目前的實驗進度</p>
+<p>為了收集學習前後的成效差異，我們設計了問卷收集數據，一樣使用 SurveyCake</p>
+<p>前測完成後，點擊問卷內的按鈕即可進入下一步</p>
+<h4 id="4-教材使用說明實驗指引與順序隨機化">4. 教材使用說明──實驗指引與順序隨機化</h4>
+<a href="https://i.imgur.com/qMSFWn3.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/qMSFWn3.png" alt="教材使用說明">
+  
+</a>
+
+<p>向受試者說明實驗教材的使用方式及注意事項</p>
+<p>點選「開始實驗」按鈕後，會隨機進入教材版本（共有 4 個版本），並將<strong>隨機數</strong>紀錄在 <strong>localStorage</strong> 中</p>
+<h4 id="5-教材範例核心學習內容展示">5. 教材範例──核心學習內容展示</h4>
+<a href="https://i.imgur.com/s1Ir2IZ.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/s1Ir2IZ.png" alt="教材範例">
+  
+</a>
+
+<a href="https://i.imgur.com/2SmJGg2.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/2SmJGg2.png" alt="教材範例">
+  
+</a>
+
+<p>教材為兩張圖卡，內容圖文並茂，受試者可透過圖卡快速掌握教材重點</p>
+<p>圖卡最下方設置按鈕，讓受試者學習完後可直接點擊按鈕進入下一步驟</p>
+<h4 id="6-學習成效後測成效評估與數據收集">6. 學習成效後測──成效評估與數據收集</h4>
+<a href="https://i.imgur.com/hjJQcdr.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/hjJQcdr.png" alt="學習成效後測">
+  
+</a>
+
+<p>為了收集學習後的學習成效，我們設計此問卷收集數據</p>
+<p>後測完成後，點擊按鈕可進入「完成此階段學習」頁面</p>
+<h4 id="7-完成此階段學習階段性引導與數據更新">7. 完成此階段學習──階段性引導與數據更新</h4>
+<a href="https://i.imgur.com/LSrgQV6.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/LSrgQV6.png" alt="完成此階段學習">
+  
+</a>
+
+<p>點擊「前往下一步」按鈕時，會<strong>讀取</strong>並<strong>更新</strong> <strong>localStorage</strong> 的資料，自動將受試者導向下一版本的教材</p>
+<p>完成 4 個階段的學習後，點擊按鈕則會進入實驗的下一個階段</p>
+<h4 id="8-學習情緒量表填答說明情緒量表前置指引">8. 學習情緒量表填答說明──情緒量表前置指引</h4>
+<a href="https://i.imgur.com/M0YbQHL.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/M0YbQHL.png" alt="學習情緒量表填答說明">
+  
+</a>
+
+<p>向受試者講解學習情緒量表</p>
+<p>將「開始填寫量表」按鈕置於中間，讓受試者可以直觀點選進入下一步</p>
+<h4 id="9-學習情緒量表多教材情緒體驗比較">9. 學習情緒量表──多教材情緒體驗比較</h4>
+<a href="https://i.imgur.com/jVQQM6B.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/jVQQM6B.png" alt="學習情緒量表">
+  
+</a>
+
+<p>將四份教材的情緒量表置於同一頁，方便受試者比較不同教材的差異</p>
+<p>下一步的按鈕置於量表下方，讓受試者可以直接點擊</p>
+<h4 id="10-回饋問卷質性資料收集">10. 回饋問卷──質性資料收集</h4>
+<a href="https://i.imgur.com/ESxi05j.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/ESxi05j.png" alt="回饋問卷">
+  
+</a>
+
+<p>收集質性資料，讓實驗資料更加豐富</p>
+<p>完成後，點擊按鈕可進入「實驗完成」頁面</p>
+<h4 id="11-實驗完成明確結束與環境作業清理">11. 實驗完成──明確結束與環境作業清理</h4>
+<a href="https://i.imgur.com/keEqsih.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://i.imgur.com/keEqsih.png" alt="實驗完成">
+  
+</a>
+
+<p>此頁面明確告知<strong>實驗完成</strong>，並設計了「結束」按鈕，點擊後將清除 localStorage 的資料，確保下一位受試者可以在<strong>全新的實驗環境</strong>下受測，避免資料混淆</p>
+<hr>
+<h3 id="四技術實現">四、技術實現</h3>
+<p>本網站採用 HTML、CSS、JavaScript 技術進行開發。</p>
+<p>我們選擇了 SCSS 以提升維護性，降低樣式維護成本，並透過變數來管理配色，確保風格統一，減少日後修改時的混亂。另外，網站開發時也使用了 localStorage 確保資料穩定性，避免受試者在誤觸重新整理鍵後，隨機順序重新洗牌。</p>
+<h4 id="1-使用技術">1. 使用技術</h4>
+<ul>
+<li><strong>HTML：</strong> 使用語義化標籤，確保實驗流程結構清晰，操作步驟井然有序</li>
+<li><strong>CSS（SCSS）：</strong> 運用 SCSS 來管理樣式，採用變數管理顏色，確保整體視覺風格一致，並提升設計的可維護性</li>
+<li><strong>JavaScript：</strong> 負責儲存實驗進度以及提升網站的互動性，確保受試者在同一次實驗中的學習順序保持不變</li>
+</ul>
+<h4 id="2-技術亮點">2. 技術亮點</h4>
+<ul>
+<li>
+<p><strong>隨機順序機制：</strong> 採用 JavaScript 的 Math.random() 生成隨機順序，並將結果儲存在 localStorage 中，以確保受試者的順序在同一次實驗中保持不變，避免因重新整理或中斷操作而改變順序，確保數據的穩定性</p>
 </li>
 <li>
-<p>實驗完成</p>
-<p><img src="https://i.imgur.com/keEqsih.png" alt="實驗完成"></p>
+<p><strong>流程引導機制：</strong> 藉由按鈕點擊事件觸發變數變動，根據變數狀態動態導向下一步實驗流程，確保操作順暢且直覺。即使是不熟悉網頁操作的使用者，也能確保他們順利完成每個步驟</p>
 </li>
-</ol>
+<li>
+<p><strong>進度條設計：</strong> 結合 SCSS 與 JavaScript，當受試者完成步驟時，系統會觸發事件重新渲染進度條。讓受試者能清楚地掌握實驗進度，提升參與過程中的安心感與可預期性</p>
+</li>
+</ul>
+<a href="https://imgur.com/DSHELX4.png" class="venobox card" data-gall="gallery">
+   <img class="img-fluid w-100 card-img-top" src="https://imgur.com/DSHELX4.png" alt="進度條">
+   
+ </a>
+
+<ul>
+<li>
+<p><strong>設計風格統一化：</strong> 採用同樣的按鈕樣式與配色，並客製化 Scrollbar 樣式，確保視覺風格一致，提升使用者介面的整體性</p>
+</li>
+<li>
+<p><strong>QR Code 縮放機制：</strong> 使用 JavaScript 的 toggle 功能設計點擊縮放機制，避免 QR Code 影響閱讀，讓受試者在需要時可快速使用</p>
+</li>
+</ul>
+<hr>
+<h3 id="五結語">五、結語</h3>
+<p>這個網站是我在撰寫碩士論文時所設計的，主要用於蒐集論文所需的實驗數據。</p>
+<p>原本想研究網頁設計相關主題，卻發現大部分的題目都有人探討過了，故改往 AR 方向研究。</p>
+<p>不過因為真的很喜歡寫網頁，不想放棄任何寫網頁的機會，所以指導教授建議可以把實驗設計成網頁形式，於是誕生了這個網站！</p>
+<p>回想起來，撰寫這個網站的過程大概是論文階段最快樂的事情 XD</p>
+<p>當時除了希望實驗可以在單一網站完成外，還想確保受試者可以清楚知道如何進行實驗、自己處於實驗的哪個階段。</p>
+<p>因此網站的設計特別強調<strong>清楚簡單</strong>的操作引導和直覺的<strong>進度顯示</strong>。</p>
+<p>由於實驗過程以電腦為主，手機則負責掃描 QR Code 來體驗 AR，因此網站沒有特別設計響應式。</p>
+<p>進度條是我很喜歡的一個部分，也有受試者稱讚過，當下超級開心～</p>
+<p>進度條的樣式清楚標示了「已完成」、「進行中」和「待完成」的狀態，讓受試者不用擔心迷失在實驗中。</p>
+<p>這邊搭配了 JavaScript 來記錄使用者的進度，確保整體的連貫性與流暢度。</p>
+<p>網站本身的開發過程相對順利，反而是在 SurveyCake 上遇到不少困難。當時問卷後台的操作對我來說不是很直覺。</p>
+<p>未來，若有機會接觸類似的網站開發，有幾項功能會想嘗試研究看看，讓整體體驗更完整：</p>
+<p><strong>1. 架設問卷系統：取代一般的問卷平台，減少嵌入外部程式碼的限制，提供更一致性的使用者體驗</strong></p>
+<p><strong>2. 新增研究者後台：讓研究者可以即時查看實驗進度和初步結果，隨時掌握實驗情況</strong></p>
+<hr>
+<p><em>3/16/2025 後記</em></p>
+<p>重新回顧整個網站，發現很多可以改進的地方</p>
+<p>介面設計雖然簡潔，但按鈕的部分感覺可以設計得更有質感一點？</p>
+<p>進度條也可以設計得更細節，例如：每個步驟之間的線條再切割成三個區塊</p>
+<p>「進行中」是用黃色標記，若是閱讀完該版本教材後，後方線條的第一區塊可以變成黃色；做完測驗後，線條的第二區塊再變成黃色。這樣或許會讓使用者更有向前一步的成就感？</p>
+<p>另外，這幾個頁面：教材使用說明、完成此部分教材、學習情緒量表填答說明也可以增加進度條</p>
+<p>最後，實驗完成頁面也許可以設計得更有趣一點～</p>
+<p>畢竟好不容易完成實驗了，希望可以讓受試者會心一笑，感受到研究者的真心感謝與恭喜完成的祝賀！</p>
 
         </div>
 
@@ -252,7 +427,7 @@
       </div>
     </div>
   </div>
- 
+
 </section>
 
 

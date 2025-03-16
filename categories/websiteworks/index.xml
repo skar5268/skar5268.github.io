@@ -16,11 +16,11 @@
       <description>DEMO </description>
     </item>
     <item>
-      <title>碩論實驗網站</title>
+      <title>一站式學術實驗平台</title>
       <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-04/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-04/</guid>
-      <description>DEMO 透過實驗網站的建立來收集研究數據，並讓受測者可在線上進行實驗。&#xA;網站整合了四份教材，透過 JavaScript 生成隨機亂數，確保每位受測者的學習順序皆不相同，避免閱讀順序影響實驗結果。&#xA;隨機數將儲存在 localStorage 中。&#xA;語法：HTML、CSS、JavaScript&#xA;網站頁面介紹 實驗網站首頁</description>
+      <description>此網站整合了同意書、教材、測驗和問卷，藉此收集研究所需數據。為研究者提供穩定的實驗環境，同時提升受試者的使用體驗。是一項用於碩論實驗的研究工具&#xA;一、基本介紹 網頁連結： https://skar5268.github.io/PaperExperiment/&#xA;核心功能： 完整實驗流程、隨機化實驗教材、收集實驗數據&#xA;目標受眾： 臺灣的大學生與碩士生，年齡分佈於 18 歲至 28 歲之間</description>
     </item>
     <item>
       <title>高雄旅遊網站</title>

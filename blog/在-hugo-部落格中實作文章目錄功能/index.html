@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-TW"><head>
+  <meta charset="utf-8">
+  <title>阿若（Michelle）</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="使用 Hugo 內建的變數來生成目錄，並自定義所需內容，提升文章的結構性與可讀性，優化閱讀體驗">
+  <meta name="author" content="阿若">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.124.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://skar5268.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://skar5268.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://skar5268.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://skar5268.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://skar5268.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://skar5268.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://skar5268.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container-fluid">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <div class="container">
+        <ul class="navbar-nav flex-row d-lg-none d-sm-flex">
+          
+          <li class="nav-item d-flex">
+            <a class="nav-link" href="https://skar5268.github.io"><i class="ti-home"></i></a>
+          </li>
+          
+          <li class="nav-item d-flex">
+            <a class="nav-link" href="https://github.com/skar5268"><i class="ti-github"></i></a>
+          </li>
+          
+        </ul>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+          <i class="ti-menu"></i>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <div class="desktop-view">
+            <ul class="navbar-nav mr-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="https://skar5268.github.io"><i class="ti-home"></i></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/skar5268"><i class="ti-github"></i></a>
+              </li>
+              
+            </ul>
+          </div>
+
+          
+
+          <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://skar5268.github.io/works/">作品集</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://skar5268.github.io/services/">委託流程</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://skar5268.github.io/blog/">部落格</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://skar5268.github.io/contact/">聯絡我</a>
+            </li>
+            
+            
+          </ul>
+
+          
+          <!-- search -->
+          <div class="search pl-lg-4">
+            <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+            <div class="search-wrapper">
+              <form action="https://skar5268.github.io//search" class="h-100">
+                <input class="search-box px-4" id="search-query" name="s" type="search"
+                  placeholder="Type & Hit Enter...">
+              </form>
+              <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+            </div>
+          </div>
+          
+
+          
+        </div>
+      </div>
+
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e9%83%a8%e8%90%bd%e6%a0%bc%e6%9e%b6%e7%ab%99%e6%95%99%e5%ad%b8" class="text-primary">部落格架站教學</a>
+        
+        <h2>在 Hugo 中實作文章目錄功能</h2>
+        <div class="mb-3 post-meta">
+          <span>By 阿若</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>17 March 2025</span>
+          
+        </div>
+        
+        <img src="https://skar5268.github.io/images/post/hugo.png" class="img-fluid w-100 mb-4" alt="在 Hugo 中實作文章目錄功能">
+        
+        <div class="content mb-5">
+          
+          <aside class="toc">
+            <h2 class="text-center">目錄</h2>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一啟用-hugo-內建目錄功能">一、啟用 Hugo 內建目錄功能</a></li>
+    <li><a href="#二設定目錄的標題層級與格式">二、設定目錄的標題層級與格式</a></li>
+    <li><a href="#三在文章中使用標題層級">三、在文章中使用標題層級</a></li>
+    <li><a href="#四自訂樣式">四、自訂樣式</a></li>
+    <li><a href="#五針對特定文章啟用--停用目錄功能">五、針對特定文章啟用 / 停用目錄功能</a></li>
+    <li><a href="#六結語">六、結語</a></li>
+  </ul>
+</nav>
+          </aside>
+          
+          <blockquote>
+<p><a href="https://gohugo.io/methods/page/tableofcontents/">官方文件教學</a></p>
+</blockquote>
+<p>目錄可以讓讀者快速瀏覽文章架構，並找到所需資訊，還能優化 SEO、提升使用者體驗</p>
+<p>本文將介紹如何使用 Hugo 內建的變數來生成目錄，並自定義所需內容，提升文章的結構性與可讀性，優化閱讀體驗</p>
+<h3 id="一啟用-hugo-內建目錄功能">一、啟用 Hugo 內建目錄功能</h3>
+<p>Hugo 提供內建的變數來自動生成目錄</p>
+<p>只要在文章範本加上 <code>{{ .TableOfContents }}</code> 變數即可啟用</p>
+<p>每個 Hugo 主題的文章範本可能位於不一樣的地方</p>
+<p>以這個部落格為例，我們使用的主題是 <a href="https://github.com/gethugothemes/liva-hugo">Liva-Hugo</a>，文章範本位於 <code>layouts/_default/single.html</code></p>
+<p>參考程式碼如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span><span style="color:#908caa">&lt;</span><span style="color:#ea9a97">aside</span> <span style="color:#ea9a97">class</span><span style="color:#908caa">=</span><span style="color:#f6c177">&#34;toc&#34;</span><span style="color:#908caa">&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#908caa">&lt;</span><span style="color:#ea9a97">h2</span><span style="color:#908caa">&gt;</span>目錄<span style="color:#908caa">&lt;/</span><span style="color:#ea9a97">h2</span><span style="color:#908caa">&gt;</span>
+</span></span><span style="display:flex;"><span>  {{ .TableOfContents }}
+</span></span><span style="display:flex;"><span><span style="color:#908caa">&lt;/</span><span style="color:#ea9a97">aside</span><span style="color:#908caa">&gt;</span>
+</span></span></code></pre></div><hr>
+<h3 id="二設定目錄的標題層級與格式">二、設定目錄的標題層級與格式</h3>
+<p>Hugo 目錄預設會從 h2 開始，顯示到 h3</p>
+<p>若想更改顯示的標題層級，可於 Hugo 的 <code>config.toml</code> 中調整</p>
+<p>像是這邊習慣以 h3 當作內文的主標題，h4 當副標題，因此程式碼會呈現如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-TOML" data-lang="TOML"><span style="display:flex;"><span><span style="color:#908caa">[</span><span style="color:#ea9a97">markup</span><span style="color:#908caa">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#908caa">[</span><span style="color:#ea9a97">markup</span><span style="color:#908caa">.</span><span style="color:#ea9a97">tableOfContents</span><span style="color:#908caa">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ea9a97">startLevel</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">3</span> <span style="color:#eb6f92">//</span> <span style="color:#eb6f92">從</span> <span style="color:#ea9a97">h3</span> <span style="color:#eb6f92">標題開始列入目錄</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ea9a97">endLevel</span> <span style="color:#908caa">=</span> <span style="color:#f6c177">4</span> <span style="color:#eb6f92">//</span> <span style="color:#eb6f92">列到</span> <span style="color:#ea9a97">h4</span> <span style="color:#eb6f92">為止</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ea9a97">ordered</span> <span style="color:#908caa">=</span> <span style="color:#3e8fb0">true</span> <span style="color:#eb6f92">//是否使用有序列表</span>
+</span></span></code></pre></div><a href="https://imgur.com/WjpGeqt.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://imgur.com/WjpGeqt.png" alt="目錄之標題層級">
+  
+  <figcaption class="text-center card-title font-italic">圖 2 目錄之標題層</figcaption>
+  
+</a>
+
+<hr>
+<h3 id="三在文章中使用標題層級">三、在文章中使用標題層級</h3>
+<p>Hugo 的目錄會自動根據 Markdown 的標題層級生成</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span><span style="color:#c4a7e7">### h3 標題（主標題）
+</span></span></span><span style="display:flex;"><span><span style="color:#c4a7e7">#### h4 標題（副標題）
+</span></span></span></code></pre></div><a href="https://imgur.com/EuiM3dL.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://imgur.com/EuiM3dL.png" alt="Markdown 的標題層級">
+  
+  <figcaption class="text-center card-title font-italic">圖 3 Markdown 的標題層級</figcaption>
+  
+</a>
+
+<hr>
+<h3 id="四自訂樣式">四、自訂樣式</h3>
+<p>以下為此部落格使用之目錄樣式</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-CSS" data-lang="CSS"><span style="display:flex;"><span><span style="color:#ea9a97">aside</span><span style="color:#908caa">.</span><span style="color:#9ccfd8">toc</span> <span style="color:#908caa">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#3e8fb0">background-color</span><span style="color:#908caa">:</span> <span style="color:#f6c177">#FFFFFB</span><span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#3e8fb0">border</span><span style="color:#908caa">:</span> <span style="color:#f6c177">2</span><span style="color:#3e8fb0">px</span> <span style="color:#3e8fb0">solid</span> <span style="color:#f6c177">#f7bf57</span><span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#3e8fb0">border-radius</span><span style="color:#908caa">:</span> <span style="color:#f6c177">5</span><span style="color:#3e8fb0">px</span><span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#3e8fb0">padding</span><span style="color:#908caa">:</span> <span style="color:#f6c177">1</span><span style="color:#3e8fb0">rem</span><span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#eb6f92">ul</span> <span style="color:#eb6f92">li</span> <span style="color:#eb6f92">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#eb6f92">&amp;::before</span> <span style="color:#eb6f92">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#3e8fb0">content</span><span style="color:#908caa">:</span> <span style="color:#f6c177">&#34;&#34;</span><span style="color:#908caa">;</span>  <span style="color:#6e6a86">/* 移除 Hugo 主題可能自帶的 icon 或數字符號*/</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#908caa">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ea9a97">a</span> <span style="color:#908caa">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#3e8fb0">display</span><span style="color:#908caa">:</span> <span style="color:#3e8fb0">block</span><span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#3e8fb0">line-height</span><span style="color:#908caa">:</span> <span style="color:#f6c177">2</span><span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#3e8fb0">color</span><span style="color:#908caa">:</span> <span style="color:#f6c177">#434243</span><span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#908caa">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#eb6f92">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#eb6f92">}</span>
+</span></span></code></pre></div><a href="https://imgur.com/keCMn2s.png" class="venobox card" data-gall="gallery">
+  <img class="img-fluid w-100 card-img-top" src="https://imgur.com/keCMn2s.png" alt="目錄樣式">
+  
+  <figcaption class="text-center card-title font-italic">圖 4 目錄樣式</figcaption>
+  
+</a>
+
+<hr>
+<h3 id="五針對特定文章啟用--停用目錄功能">五、針對特定文章啟用 / 停用目錄功能</h3>
+<p>若是有些文章段落較短，或偏隨筆日誌，不太需要目錄功能的話，可以在文章中的 Front Matter 中進行設定</p>
+<p>Front Matter 是在 Markdown 文件開頭的設定區塊，在 <a href="https://skar5268.github.io/blog/hugo-%E6%9E%B6%E7%AB%99%E6%AD%A5%E9%A9%9F/">Hugo 架站步驟</a> 這篇文章中，我們提到文章開頭需要撰寫以下設定：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;標題&#34;
+</span></span><span style="display:flex;"><span>date: 日期（2024-04-28）
+</span></span><span style="display:flex;"><span>draft: 是否為草搞（true/false）
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>image: &#34;圖片網址&#34;
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>這個區塊就是 Front Matter</p>
+<p>而我們可以在這個區塊加上 toc 參數，來決定是否要啟用目錄功能</p>
+<p>但若是使用的部落格主題沒有支援 toc 參數，則需要自行修改模板</p>
+<p>Liva Hugo 沒有此參數，故我們要先新增目錄參數才能使用它</p>
+<p>在前面段落提到的啟用目錄功能中，將程式碼增加 <strong>if 判斷</strong>是否要啟用或停用目錄：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>{{ if .Params.toc }}
+</span></span><span style="display:flex;"><span><span style="color:#908caa">&lt;</span><span style="color:#ea9a97">aside</span> <span style="color:#ea9a97">class</span><span style="color:#908caa">=</span><span style="color:#f6c177">&#34;toc&#34;</span><span style="color:#908caa">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#908caa">&lt;</span><span style="color:#ea9a97">h2</span> <span style="color:#ea9a97">class</span><span style="color:#908caa">=</span><span style="color:#f6c177">&#34;text-center&#34;</span><span style="color:#908caa">&gt;</span>目錄<span style="color:#908caa">&lt;/</span><span style="color:#ea9a97">h2</span><span style="color:#908caa">&gt;</span>
+</span></span><span style="display:flex;"><span>    {{ .TableOfContents }}
+</span></span><span style="display:flex;"><span><span style="color:#908caa">&lt;/</span><span style="color:#ea9a97">aside</span><span style="color:#908caa">&gt;</span>
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><p>之後就可以在 Front Matter 設定</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span>toc: true / false
+</span></span></code></pre></div><hr>
+<h3 id="六結語">六、結語</h3>
+<p>會使用到這個功能主要是因為在整理網站作品集時發現文章內容好長</p>
+<p>如果沒有目錄，會降低我的閱讀意願</p>
+<p>在實作過程中，沒有遇到太大的問題，若大家有其它心得，歡迎分享～</p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<footer class="text-capitalize">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 border-top py-4 text-center">
+        copyright © 2025 阿若 All Rights Reserved
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<script>
+  
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://skar5268.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://skar5268.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://skar5268.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://skar5268.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://skar5268.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://skar5268.github.io/plugins/search/mark.js"></script>
+
+<script src="https://skar5268.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://skar5268.github.io/js/script.min.js"></script>
+
+
+
+
+</body>
+</html>
