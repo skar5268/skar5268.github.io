@@ -6,8 +6,15 @@
     <description>Recent content on 阿若（Michelle）</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 17 Mar 2025 04:55:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 16:10:00 +0800</lastBuildDate>
     <atom:link href="https://skar5268.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>網頁切版作品牆</title>
+      <link>https://skar5268.github.io/blog/%E7%B6%B2%E9%A0%81%E5%88%87%E7%89%88%E4%BD%9C%E5%93%81/</link>
+      <pubDate>Tue, 25 Mar 2025 16:10:00 +0800</pubDate>
+      <guid>https://skar5268.github.io/blog/%E7%B6%B2%E9%A0%81%E5%88%87%E7%89%88%E4%BD%9C%E5%93%81/</guid>
+      <description>這些是我在學習過程中完成的一些網頁切版作品，涵蓋了從基礎的 HTML 與 CSS，到更進階的互動式網頁設計、JavaScript、API 資料串接等多個範疇。&#xA;一、基礎（HTML + CSS） 1. 履歷設計 網頁連結： 履歷設計</description>
+    </item>
     <item>
       <title>在 Hugo 中實作文章目錄功能</title>
       <link>https://skar5268.github.io/blog/%E5%9C%A8-hugo-%E9%83%A8%E8%90%BD%E6%A0%BC%E4%B8%AD%E5%AF%A6%E4%BD%9C%E6%96%87%E7%AB%A0%E7%9B%AE%E9%8C%84%E5%8A%9F%E8%83%BD/</link>
@@ -65,32 +72,11 @@
       <description>Hexo 起源 / Hexo 官網 一、環境建置 安裝 Node.js&#xA;安裝 Git</description>
     </item>
     <item>
-      <title>履歷表</title>
-      <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-03/</link>
-      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-03/</guid>
-      <description>DEMO </description>
-    </item>
-    <item>
       <title>一站式學術實驗平台</title>
-      <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-04/</link>
+      <link>https://skar5268.github.io/blog/%E4%B8%80%E7%AB%99%E5%BC%8F%E5%AD%B8%E8%A1%93%E5%AF%A6%E9%A9%97%E5%B9%B3%E5%8F%B0/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-04/</guid>
+      <guid>https://skar5268.github.io/blog/%E4%B8%80%E7%AB%99%E5%BC%8F%E5%AD%B8%E8%A1%93%E5%AF%A6%E9%A9%97%E5%B9%B3%E5%8F%B0/</guid>
       <description>此網站整合了同意書、教材、測驗和問卷，藉此收集研究所需數據。為研究者提供穩定的實驗環境，同時提升受試者的使用體驗。是一項用於碩論實驗的研究工具&#xA;一、基本介紹 網頁連結： https://skar5268.github.io/PaperExperiment/&#xA;核心功能： 完整實驗流程、隨機化實驗教材、收集實驗數據&#xA;目標受眾： 臺灣的大學生與碩士生，年齡分佈於 18 歲至 28 歲之間</description>
-    </item>
-    <item>
-      <title>高雄旅遊網站</title>
-      <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-02/</link>
-      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-02/</guid>
-      <description>DEMO </description>
-    </item>
-    <item>
-      <title>d&#39;Perfume</title>
-      <link>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-01/</link>
-      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://skar5268.github.io/blog/%E4%BD%9C%E5%93%81%E9%9B%86-01/</guid>
-      <description>DEMO 簡介 設計稿為「2020 六角學院前端工程師學習體驗營」所提供的版型，以 Bootstrap4 切版，包含響應式、漢堡選單、Modal 等設計。</description>
     </item>
   </channel>
 </rss>
